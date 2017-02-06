@@ -1,0 +1,150 @@
+/*
+设置网页背景颜色和边的大小
+*/
+body {
+    margin: 10px;
+    background-color: #126480;
+}
+
+/*图标位置*/
+#icon {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+/*网页主体位置,大小及色彩属性*/
+.page {
+    width: 710px;
+    height: 2920px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    margin-left: -355px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+/*导航条位置*/
+.nav {
+    width: 140px;
+    float: right;
+}
+
+
+a {
+    color: deeppink;
+    text-decoration: none;
+    font-size: 50%;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+table {
+    width: 650px;
+    padding: 5px;
+    font-family: STFangsong;
+    font-size: small;
+    border-collapse: collapse;
+    border-color: darkgray;
+    margin: 0px auto;
+}
+
+.formList {
+    border-bottom: hidden;
+}
+
+#title1 {
+    background-color: lightgray;
+}
+
+/*设置所有span标签为红色*/
+span {
+    color: red;
+}
+
+#intro {
+    color: black;
+    text-align: center;
+}
+
+#return {
+    color: blue;
+    text-decoration: underline;
+}
+
+#return:hover {
+    color: hotpink;
+}
+
+th {
+    text-align: right;
+    width: 120px;
+}
+
+td {
+    color: blue;
+    padding: 5px;
+}
+
+#chooseG {
+    width: 65px;
+}
+
+input {
+    width: 250px;
+}
+
+#gSchool {
+    width: 125px;
+}
+
+#hSchool {
+    width: 200px;
+}
+
+#title2 {
+    background-color: lightgray;
+}
+
+#homeP {
+    width: 190px;
+}
+
+#title3 {
+    background-color: lightgray;
+}
+
+input[type= checkbox] {
+    width: 10px;
+}
+
+#branches1 {
+    color: black;
+}
+
+#branches2 {
+    color: black;
+}
+
+#branches3 {
+    color: black;
+}
+
+#submit {
+    width: 80px;
+}
+
+#final {
+    height: 100px;
+    text-align: center;
+}
+
+.footer {
+    font-size: 50%;
+    color: gray;
+    text-align: center;
+    margin-top: 5px;
+}

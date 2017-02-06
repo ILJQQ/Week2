@@ -1,0 +1,78 @@
+/*
+ *初始化body所有外框为零
+ */
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/*
+ *设置所有的div为100*100
+ */
+div{
+    width: 100px;
+    height:100px;
+}
+
+/*
+ *用position方法将整个十字架移到页面中间
+ */
+.cross{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+/*顶部方块儿并设置阴影
+*/
+.top{
+    background-color: red;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px;
+}
+
+/*
+ *应用box方法让三个中间方块儿平行排列
+ */
+.mid{
+    display:-webkit-box ;
+    width: 300px;
+    height: 100px;
+}
+
+/*中间方块儿并设置阴影
+*/
+.center{
+    background: url("../images/rainbowCircle.png")center no-repeat;
+    background-size: 64px;
+    box-shadow: 5px 5px 5px;
+}
+
+/*中左方块儿并设置阴影
+*/
+.midLeft{
+    background-color: yellow;
+    box-shadow: 5px 5px 5px;
+}
+
+/*中右方块儿并设置阴影
+*/
+.midRight{
+    background-color: green;
+    box-shadow: 5px 5px 5px;
+}
+
+/*底部方块儿并设置阴影
+*/
+.bot{
+    background-color: blue;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px;
+}
